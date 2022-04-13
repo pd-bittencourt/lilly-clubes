@@ -39,7 +39,7 @@
       },
       {
         name: 'Lilly Club • 2 sessões/mês',
-        taxa: 'Grátis',
+        taxes: 'Grátis',
         membership: 'R$ 199,90',
         session: 'R$ 129,90'
       }

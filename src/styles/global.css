@@ -59,8 +59,8 @@
   --space-7xl: 128px;
 
   /* FONT FAMILY */
-  --fontfamily: 'Brandon Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  --fontfamily: 'Brandon Text', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 
   /* LINE HEIGHT */
   --line-sm: 1;
@@ -108,6 +108,7 @@
 
   /* BORDER RADIUS */
   --border-radius-top: 16px 16px 0 0;
+  --border-radius-full: 999px;
 
   /* SHADOWS */
   --shadow-1: 0 0 4px 4px rgba(0, 0, 0, 0.05);
