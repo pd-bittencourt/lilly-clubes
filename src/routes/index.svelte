@@ -168,7 +168,7 @@
     <div class="modal-background" on:click={openModal} />
 
     <iframe
-      src="https://www.youtube.com/embed/kaeKF6kAZlw?controls=0"
+      src="https://www.youtube.com/embed/eAe6imcku3A"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -177,19 +177,29 @@
 
     <button on:click={openModal}>
       <svg
-        width="15"
-        height="26"
-        viewBox="0 0 15 26"
+        width="22"
+        height="22"
+        viewBox="0 0 22 22"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path
-          d="M13.75 1.5L2.25 13L13.75 24.5"
+        <line
+          x1="19.4454"
+          y1="2.06066"
+          x2="1.06066"
+          y2="20.4454"
+          stroke="white"
+          stroke-width="3"
+        />
+        <line
+          x1="1.44543"
+          y1="1.93934"
+          x2="19.8302"
+          y2="20.3241"
           stroke="white"
           stroke-width="3"
         />
       </svg>
-      Voltar
     </button>
   </div>
 {/if}
@@ -206,10 +216,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    padding: 40px 32px;
+    padding: 40px 24px;
   }
 
   h1 {
+    margin-top: 150px;
     font-size: 48px;
     color: var(--color-gold-3);
     line-height: 1;
@@ -293,10 +304,12 @@
   button {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: absolute;
     top: 16px;
-    left: 16px;
-    padding: 8px 16px;
+    right: 16px;
+    width: 48px;
+    height: 48px;
     border: none;
     border-radius: var(--border-radius-full);
     background: var(--color-gold-3);
@@ -306,7 +319,6 @@
     font-weight: var(--weight-bold);
   }
   button svg {
-    margin-right: 16px;
     height: 16px;
   }
 </style>

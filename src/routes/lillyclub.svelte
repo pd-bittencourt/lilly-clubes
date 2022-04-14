@@ -55,6 +55,7 @@
 <div
   in:fly={{ x: 200, duration: 200, delay: 300 }}
   out:fly={{ x: 200, duration: 200 }}
+  style:background={data.bgColor}
 >
   <Header
     title={data.club}
@@ -87,7 +88,8 @@
 
 <style>
   main {
-    margin-top: -24px;
+    margin-top: 100px;
+    /* margin-top: -24px; */
     padding: 32px 32px 160px 32px;
     border-radius: 16px 16px 0 0;
     background: var(--color-base);
