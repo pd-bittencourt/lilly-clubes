@@ -1,44 +1,66 @@
 @font-face {
-  font-family: 'Brandon Text Black';
-  src: url(./fonts/BrandonText-Black.woff2) format('woff2'),
-    url(./fonts/BrandonText-Black.woff) format('woff');
-  font-weight: normal;
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-Thin.woff2) format('woff2'),
+    url(./fonts/BrandonText-Thin.woff) format('woff');
+  font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'Brandon Text Bold';
-  src: url(./fonts/BrandonText-Bold.woff2) format('woff2'),
-    url(./fonts/BrandonText-Bold.woff) format('woff');
-  font-weight: normal;
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-Light.woff2) format('woff2'),
+    url(./fonts/BrandonText-Light.woff) format('woff');
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'Brandon Text Medium';
-  src: url(./fonts/BrandonText-Medium.woff2) format('woff2'),
-    url(./fonts/BrandonText-Medium.woff) format('woff');
-  font-weight: normal;
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-Regular.woff2) format('woff2'),
+    url(./fonts/BrandonText-Regular.woff) format('woff');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Brandon Text Regular';
   src: url(./fonts/BrandonText-Regular.woff2) format('woff2'),
     url(./fonts/BrandonText-Regular.woff) format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'Brandon Text Regular Italic';
-  src: url(./fonts/BrandonText-Regularitalic.woff2) format('woff2'),
-    url(./fonts/BrandonText-Regularitalic.woff) format('woff');
-  font-weight: normal;
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-RegularItalic.woff2) format('woff2'),
+    url(./fonts/BrandonText-RegularItalic.woff) format('woff');
+  font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
-  font-family: 'Brandon Text Thin';
-  src: url(./fonts/BrandonText-Thin.woff2) format('woff2'),
-    url(./fonts/BrandonText-Thin.woff) format('woff');
-  font-weight: normal;
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-Medium.woff2) format('woff2'),
+    url(./fonts/BrandonText-Medium.woff) format('woff');
+  font-weight: 500;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-Bold.woff2) format('woff2'),
+    url(./fonts/BrandonText-Bold.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(./fonts/BrandonText-Black.woff2) format('woff2'),
+    url(./fonts/BrandonText-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -85,7 +107,8 @@
   --weight-light: 300;
   --weight-regular: 400;
   --weight-medium: 500;
-  --weight-bold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
 
   /* BASE COLORS */
   --color-white: #fff;
@@ -139,7 +162,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-black);
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -184,6 +207,9 @@ hr {
   background-color: var(--color-gray-2); /* Modern Browsers */
 }
 
+.weight-black {
+  font-weight: var(--weight-black);
+}
 .weight-bold {
   font-weight: var(--weight-bold);
 }

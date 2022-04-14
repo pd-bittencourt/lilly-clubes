@@ -30,7 +30,9 @@
     out:fade={{ duration: 200 }}
     href="/lillybotoclub">Lilly boto club</a
   >
-  <div>
+
+  <!-- LOGO LILLY -->
+  <div class="logo-lilly">
     <svg
       width="123"
       height="50"
@@ -97,6 +99,8 @@
     </svg>
   </div>
 </div>
+
+<!-- VIDEO BUTTON -->
 <div
   class="link-videos"
   on:click={openModal}
@@ -131,7 +135,10 @@
     os clubs
   </p>
 </div>
-<div
+
+<!-- WHATSAPP -->
+<a
+  href="https://bit.ly/AtendiLillySite"
   class="link-whatsapp"
   in:scale={{ duration: 200, delay: 1200, opacity: 0, start: 0.5 }}
   out:scale={{ duration: 200 }}
@@ -149,8 +156,9 @@
       fill="white"
     />
   </svg>
-</div>
+</a>
 
+<!-- MODAL -->
 {#if isModalOpen}
   <div
     class="modal"

@@ -11,7 +11,7 @@
     <hr />
     <div class="row taxa">
       <span>Taxa de associação</span>
-      <span class="weight-bold color-accent">{clube.taxes}</span>
+      <span class="tax-value weight-black color-accent">{clube.taxes}</span>
     </div>
     <hr />
     <div class="row mensalidade">
@@ -38,7 +38,7 @@
   .row > span:first-child {
     flex: 1;
   }
-  .weight-bold.color-accent {
+  .tax-value {
     text-transform: uppercase;
   }
 </style>
