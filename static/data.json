@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "slug": "lillyclub",
     "club": "Lilly Club",
     "bgColor": "var(--color-pink-1)",
@@ -36,7 +37,8 @@
     "legalExceptions": "*Exceto Ultraformer, Criolipólise, Injetáveis e Musculares"
   },
   {
-    "slug": "lillylaseclub",
+    "id": 2,
+    "slug": "lillylaserclub",
     "club": "Lilly Laser Club",
     "bgColor": "var(--color-blue-1)",
     "titleColor": "var(--color-blue-3)",
@@ -62,6 +64,7 @@
     "legalExpirationDate": "Validade: 31 de Março de 2022"
   },
   {
+    "id": 3,
     "slug": "lillybotoclub",
     "club": "Lilly Boto Club",
     "bgColor": "var(--color-gold-1)",
