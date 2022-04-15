@@ -117,7 +117,7 @@
     >
       <path
         d="M16.5 33C25.6127 33 33 25.6127 33 16.5C33 7.3873 25.6127 0 16.5 0C7.3873 0 0 7.3873 0 16.5C0 25.6127 7.3873 33 16.5 33Z"
-        fill="#674957"
+        fill="var(--color-pink-2)"
       />
       <path
         d="M8.57997 9.92606H19.08C19.9509 9.92579 20.7864 10.2713 21.4028 10.8867C22.0191 11.5021 22.3659 12.3371 22.367 13.2081V21.0861C22.3667 21.4342 22.2283 21.768 21.9821 22.0142C21.7359 22.2604 21.4021 22.3988 21.054 22.3991H10.554C9.68299 22.3993 8.84753 22.0538 8.23118 21.4384C7.61484 20.823 7.26803 19.988 7.26697 19.1171V11.2391C7.26723 10.8909 7.40565 10.5571 7.65183 10.3109C7.89801 10.0647 8.23182 9.92632 8.57997 9.92606ZM21.053 21.0861V13.2081C21.0522 12.6861 20.8445 12.1857 20.4754 11.8166C20.1063 11.4476 19.6059 11.2398 19.084 11.2391H8.57897V19.1171C8.57976 19.639 8.78746 20.1394 9.15655 20.5085C9.52564 20.8776 10.026 21.0853 10.548 21.0861H21.053Z"
@@ -215,12 +215,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 40px 24px;
   }
 
   h1 {
-    margin-top: 150px;
     font-size: 48px;
     color: var(--color-gold-3);
     line-height: 1;
@@ -250,7 +249,7 @@
   .link-videos {
     position: absolute;
     top: 64px;
-    right: 40px;
+    right: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,6 +262,24 @@
     color: var(--color-gold-3);
     line-height: 1.1;
     text-transform: uppercase;
+  }
+
+  .icon svg {
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1.3);
+    }
+
+    50% {
+      transform: scale(0.9);
+    }
+
+    100% {
+      transform: scale(1.3);
+    }
   }
 
   .link-whatsapp {
