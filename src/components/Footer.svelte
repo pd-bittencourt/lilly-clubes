@@ -23,7 +23,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 24px;
+    padding: 16px 24px 24px;
     border-radius: var(--border-radius-top);
     box-shadow: var(--shadow-1);
     background: var(--color-white);

@@ -18,17 +18,17 @@
   <a
     in:fade={{ duration: 200, delay: 400 }}
     out:fade={{ duration: 200 }}
-    href="/lillyclub">Lilly club</a
+    href="/clubes/0">Lilly club</a
   >
   <a
     in:fade={{ duration: 200, delay: 500 }}
     out:fade={{ duration: 200 }}
-    href="/lillylaserclub">Lilly laser club</a
+    href="/clubes/1">Lilly laser club</a
   >
   <a
     in:fade={{ duration: 200, delay: 600 }}
     out:fade={{ duration: 200 }}
-    href="/lillybotoclub">Lilly boto club</a
+    href="/clubes/2">Lilly boto club</a
   >
 
   <!-- LOGO LILLY -->
@@ -226,7 +226,7 @@
     text-align: center;
   }
   .subtitulo {
-    font-size: 24px;
+    font-size: var(--size-xl);
     color: var(--color-gold-3);
     margin-top: 16px;
   }
