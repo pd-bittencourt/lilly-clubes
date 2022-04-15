@@ -22,7 +22,11 @@
 
 <style>
   header {
-    /* background: var(--color-pink-1); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
     display: flex;
     align-items: center;
     justify-content: space-between;

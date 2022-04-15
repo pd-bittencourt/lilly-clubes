@@ -207,6 +207,10 @@ hr {
   background-color: var(--color-gray-2); /* Modern Browsers */
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .weight-black {
   font-weight: var(--weight-black);
 }

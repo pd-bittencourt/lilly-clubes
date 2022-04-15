@@ -246,6 +246,9 @@
     text-transform: uppercase;
     text-align: center;
   }
+  .container a:focus {
+    background: var(--color-gold-2);
+  }
   .link-videos {
     position: absolute;
     top: 64px;
