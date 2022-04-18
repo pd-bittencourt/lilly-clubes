@@ -15,7 +15,7 @@
   import { fly } from 'svelte/transition';
 
   import '../../styles/global.css';
-  import Footer from '../../components/footer.svelte';
+  import Footer from '../../components/Footer.svelte';
   import Header from '../../components/Header.svelte';
   import MainDescription from '../../components/MainDescription.svelte';
   import Pricing from '../../components/Pricing.svelte';
