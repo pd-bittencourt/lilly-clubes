@@ -35,6 +35,7 @@
     justify-content: center;
     flex-grow: 1;
     border-radius: 100px;
+    height: 48px;
     padding: 8px 20px 8px 20px;
     background: var(--color-whatsapp);
     text-align: center;
