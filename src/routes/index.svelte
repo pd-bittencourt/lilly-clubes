@@ -207,7 +207,7 @@
 <style>
   .container {
     background: linear-gradient(transparent 80%, rgba(0, 0, 0, 0.5)),
-      url(/paolla-1@2x.jpg);
+      url(/images/paolla-1@2x.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
