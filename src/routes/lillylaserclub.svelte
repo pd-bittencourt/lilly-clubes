@@ -27,17 +27,22 @@
       'Todas as áreas do corpo (exceto sobrancelhas)',
       'Feminino e masculino'
     ],
-    pricingTitle: 'Conheça o plano',
+    pricingTitle: 'Conheça os planos',
     pricing: [
       {
-        name: 'Lilly Laser Club • 1 sessão de 30 minutos Período = a cada 45 dias',
+        name: 'Lilly Laser Club • 1 sessão a cada 45 dias',
         taxes: 'Grátis',
         membership: 'R$ 129,90'
+      },
+      {
+        name: 'Lilly Laser Club • 2 sessões a cada 45 dias',
+        taxes: 'Grátis',
+        membership: 'R$ 199,90'
       }
     ],
     legalText:
       'Preços válidos para compra em 12x no crédito parcelado ou à vista',
-    legalExpirationDate: 'Validade: 31 de Março de 2022'
+    legalExpirationDate: 'Validade: 31 de maio de 2022'
   };
 </script>
 

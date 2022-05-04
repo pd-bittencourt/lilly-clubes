@@ -62,7 +62,7 @@
     ],
     legalText:
       'Preços válidos para compra em 12x no crédito parcelado ou à vista',
-    legalExpirationDate: 'Validade: 31 de Março de 2022'
+    legalExpirationDate: 'Validade: 31 de maio de 2022'
   };
 </script>
 

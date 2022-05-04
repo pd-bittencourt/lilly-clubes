@@ -38,6 +38,9 @@
   .row > span:first-child {
     flex: 1;
   }
+  .row.mensalidade > span:nth-child(2) {
+    font-weight: var(--weight-bold);
+  }
   .tax-value {
     text-transform: uppercase;
   }
